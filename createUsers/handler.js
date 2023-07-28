@@ -7,8 +7,8 @@ if(process.env.IS_OFFLINE){
     dynamoDBClientParams = {        
         region: 'localhost',
         endpoint: 'http://localhost:8000',
-        accessKeyId: 'AKIAXGH43JHE3W4X7ZOO',  // needed if you don't have aws credentials at all in env
-        secretAccessKey: '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' 
+        accessKeyId: 'accessKeyId',  // needed if you don't have aws credentials at all in env
+        secretAccessKey: 'secretAccessKey'
    }   
 }
 
